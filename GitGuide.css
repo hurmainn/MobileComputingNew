@@ -1,4 +1,9 @@
-.paragraph
+body
 {
-    color:black
+    background-color:beige
+}    
+#centralized
+{
+    text-align: center;
+    justify-content: center;
 }
