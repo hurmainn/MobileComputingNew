@@ -4,58 +4,83 @@
        <link rel="stylesheet" href="GitGuide.css">
     </head>
     <body>
-        <h1 id="centralized">WELCOME TO HURMAIN'S GITHUB TUTORIAL</h1>
-      <!-- INSTALLATION -->
-        <h2> INSTALLATION </h2>
-<h4>GitHub for Windows</h4> 
-htps://windows.github.com
-<h4>GitHub for Mac</h4>
-htps://mac.github.com
-<h4>Git for All Platforms</h4>
-htp://git-scm.com
-        <!-- SETUP -->
-        <h2>SETUP</h2>
-Configuring user information used across all local repositories
-<h4>git config --global user.name “[firstname lastname]”</h4>
-set a name that is identifiable for credit when review version history
-<h4>git config --global user.email “[valid-email]”</h4>
-set an email address that will be associated with each history marker
-<h4>git config --global color.ui auto</h4>
-set automatic command line coloring for Git for easy reviewing
-<!-- SETUP AND INIT -->
-<h2>SETUP & INIT</h2>
-Configuring user information, initializing and cloning repositories
-<h4>git init</h4>
-initialize an existing directory as a Git repository
-<h4>git clone [url]</h4>
-retrieve an entire repository from a hosted location via URL
+      <h1 id="centralized">WELCOME TO HURMAIN'S GITHUB TUTORIAL</h1>
 
-<!-- STAGE AND SNAPSHOT -->
-<h2>STAGE & SNAPSHOT</h2>
-<h4>git status</h4>
-show modified files in working directory, staged for your next commit
-<h4>git add [file]</h4>
-add a file as it looks now to your next commit (stage)
-<h4>git reset [file]</h4>
-unstage a file while retaining the changes in working directory
-<h4>git diff</h4>
-diff of what is changed but not staged
-<h4>git diff --staged</h4>
-diff of what is staged but not yet commited
-<h4>git commit -m “[descriptive message]”</h4>
-commit your staged content as a new commit snapshot
+       <div class="grid-container">
+      
+        <!-- INSTALLATION -->
+          <div class="row row1">
+           <div class="col col1">
+              <h2> INSTALLATION </h2>
+  <h4>GitHub for Windows</h4> 
+  htps://windows.github.com
+  <h4>GitHub for Mac</h4>
+  htps://mac.github.com
+  <h4>Git for All Platforms</h4>
+  htp://git-scm.com
+          </div>
+          <!-- SETUP -->
+          <div class="col col2">
+          <h2>SETUP</h2>
+  Configuring user information used across all local repositories
+  <h4>git config --global user.name “[firstname lastname]”</h4>
+  set a name that is identifiable for credit when review version history
+  <h4>git config --global user.email “[valid-email]”</h4>
+  set an email address that will be associated with each history marker
+  <h4>git config --global color.ui auto</h4>
+  set automatic command line coloring for Git for easy reviewing
+        </div>
+        </div> 
+        <!-- ROW 1 ENDED -->
 
-<!-- BRANCH AND MERGE -->
-<h2>BRANCH & MERGE</h2>
-<h4>git branch</h4>
-list your branches. a * will appear next to the currently active branch
-<h4>git branch [branch-name]</h4>
-create a new branch at the current commit
-<h4>git checkout</h4>
-switch to another branch and check it out into your working directory
-<h4>git merge [branch]</h4>
-merge the specified branch’s history into the current one
-<h4>git log</h4>
-show all commits in the current branch’s history
+  <!-- SETUP AND INIT -->
+  <div class="row row2">
+    <div class="col col1">
+  <h2>SETUP & INIT</h2>
+  Configuring user information, initializing and cloning repositories
+  <h4>git init</h4>
+  initialize an existing directory as a Git repository
+  <h4>git clone [url]</h4>
+  retrieve an entire repository from a hosted location via URL
+  </div>
+
+  <!-- STAGE AND SNAPSHOT -->
+  <div class="col col2">
+  <h2>STAGE & SNAPSHOT</h2>
+  <h4>git status</h4>
+  show modified files in working directory, staged for your next commit
+  <h4>git add [file]</h4>
+  add a file as it looks now to your next commit (stage)
+  <h4>git reset [file]</h4>
+  unstage a file while retaining the changes in working directory
+  <h4>git diff</h4>
+  diff of what is changed but not staged
+  <h4>git diff --staged</h4>
+  diff of what is staged but not yet commited
+  <h4>git commit -m “[descriptive message]”</h4>
+  commit your staged content as a new commit snapshot
+  </div>
+  </div>
+  <!-- ROW 2 ENDED -->
+
+  <!-- BRANCH AND MERGE -->
+  <div class="row row3">
+    <div class="col col1">
+  <h2>BRANCH & MERGE</h2>
+  <h4>git branch</h4>
+  list your branches. a * will appear next to the currently active branch
+  <h4>git branch [branch-name]</h4>
+  create a new branch at the current commit
+  <h4>git checkout</h4>
+  switch to another branch and check it out into your working directory
+  <h4>git merge [branch]</h4>
+  merge the specified branch’s history into the current one
+  <h4>git log</h4>
+  show all commits in the current branch’s history
+  </div>
+  </div>
+  <!-- ROW 3 ENDED -->
+       </div>
+       <!-- GRID ENDED -->
     </body>
 </html>
